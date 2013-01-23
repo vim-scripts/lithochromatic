@@ -1,0 +1,13 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4406
+
+Lithochromatic is a theme that aims better readabilty. It uses a small color
+set.
+
+A screenshot is available at http://gkayaalp.com/img/lithochromatic-1.0.0-gnome-terminal.png .
+
+One of main concerns is to be consistent in highlighting, which means
+using same or related colors for related elements of source code. This makes
+maintaining concentration while editing and reading easier.
+
+Recently I have changed whole color set of LithoChromatic from a less
+consistent set to a better one. I have also set colors for gvim this time.
