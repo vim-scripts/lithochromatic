@@ -13,7 +13,7 @@
 " PURPOSE.  See the GNU General Public License for more details.
 "
 " You should have received a copy of the GNU General Public License
-" along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+" along with LithoChromatic.  If not, see <http://www.gnu.org/licenses/>.
 "------------------------------------------------------------------------------
 " Some boilerplate code here.
 set background="light"
@@ -106,9 +106,15 @@ highlight link markdownUrl markdownLinkText
 highlight link pythonFunction Normal
 highlight link pythonExceptions Normal
 
+" VimL
 highlight VimHiAttrib ctermfg=232 guifg=#080808
 highlight link VimSet Type
 highlight link VimOption Normal
 highlight link helpHyperTextJump markdownUrl
 highlight link vimVar Normal
 highlight link vimHiGroup Normal
+
+" Perl
+highlight link perlVarPlain Normal
+highlight link perlVarPlain2 Normal
+highlight link perlSubName Normal
