@@ -32,14 +32,19 @@ highlight Conditional ctermfg=127 cterm=bold guifg=#af00af gui=bold
 highlight Constant ctermfg=160 guifg=#d70000
 highlight String ctermfg=22 cterm=bold guifg=#005f00 gui=bold
 highlight Special ctermfg=17 cterm=bold guifg=#00005f gui=bold
-highlight Comment ctermfg=18 guifg=#000087
+highlight Comment ctermfg=18 guifg=#000087 gui=italic
 highlight Number ctermfg=61 cterm=bold guifg=#5f5faf cterm=bold
 highlight Identifier ctermfg=127 cterm=bold guifg=#af00af gui=bold
 highlight Ignore ctermbg=255 ctermfg=16 guifg=#000000 guibg=#eeeeee
 highlight link  Boolean  Type
 highlight link Function Type
 highlight link Keyword  Type
-
+highlight link Structure StorageClass
+highlight link Define  Include
+highlight link PreCondit  Define
+highlight link Label   Statement
+highlight link Repeat   Conditional
+highlight link Operator  Conditional
 
 highlight Normal  ctermbg=255 ctermfg=16 guifg=#000000 guibg=#eeeeee
 highlight Title ctermbg=255 ctermfg=16 guifg=#000000 guibg=#eeeeee cterm=bold,underline gui=bold,underline
@@ -50,12 +55,12 @@ highlight PmenuSel  ctermbg=52 ctermfg=144 guibg=#5f0000 guibg=#afaf87
 highlight PmenuSbar  ctermfg=52 ctermbg=0 guifg=#5f0000 guibg=#000000
 highlight PmenuThumb  ctermfg=52 guifg=#5f0000
 highlight ModeMsg  ctermfg=22 guifg=#005f00
-highlight Search  ctermbg=NONE ctermfg=NONE cterm=underline,bold
+highlight Search  ctermbg=NONE ctermfg=NONE guifg=NONE guibg=NONE cterm=underline,bold gui=underline,bold
 highlight Visual  ctermbg=191 ctermfg=0 guifg=#000000 guibg=#d7ff5f
 highlight ColorColumn  ctermbg=250 ctermfg=NONE guibg=#bcbcbc
-highlight MatchParen  cterm=underline,bold ctermbg=NONE ctermfg=16 guifg=#000000
-highlight NonText ctermfg=250 guifg=#bcbcbc
-highlight SpecialKey ctermbg=250 ctermfg=NONE guibg=#bcbcbc
+highlight MatchParen  cterm=underline,bold ctermbg=NONE ctermfg=16 guifg=#000000 guibg=NONE gui=underline,bold
+highlight NonText ctermbg=255 guibg=#eeeeee ctermfg=250 guifg=#bcbcbc 
+highlight SpecialKey ctermbg=250 ctermfg=NONE guibg=#bcbcbc guifg=NONE
 highlight Question ctermfg=22 cterm=bold guifg=#005f00 gui=bold
 highlight MoreMsg ctermfg=22 cterm=bold guifg=#005f00 gui=bold
 highlight Directory ctermfg=22 cterm=bold guifg=#005f00 gui=bold
@@ -63,7 +68,7 @@ highlight WarningMsg ctermbg=52 ctermfg=255 guifg=#eeeeee guibg=#5f0000
 highlight CursorLineNr ctermfg=238 ctermbg=144 guifg=#444444 guibg=#afaf87 cterm=underline gui=underline
 highlight Folded ctermbg=191 ctermfg=0 guifg=#000000 guibg=#d7ff5f
 highlight FoldColumn ctermbg=191 ctermfg=0 guifg=#000000 guibg=#d7ff5f
-highlight ExtraWhitespace ctermbg=250 guibg=#bcbcbc
+highlight ExtraWhitespace ctermbg=255 guibg=#eeeeee ctermfg=250 guifg=#bcbcbc
 highlight DiffAdd ctermbg=NONE ctermfg=34 guifg=#00af00 guibg=NONE
 highlight DiffChange ctermbg=NONE ctermfg=22 guifg=#005f00 guibg=NONE
 highlight DiffText ctermbg=NONE ctermfg=160 guifg=#d70000 guibg=NONE cterm=bold,underline, gui=bold,underline
@@ -72,12 +77,7 @@ highlight CursorColumn ctermbg=229 ctermfg=NONE guibg=#ffffaf cterm=NONE guifg=N
 highlight CursorLine ctermbg=229 ctermfg=NONE guibg=#ffffaf cterm=NONE guifg=NONE gui=NONE
 highlight TabLine cterm=underline,bold gui=underline,bold 
 highlight VertSplit ctermfg=16 guifg=#000000 ctermbg=16 guibg=#000000
-highlight link Structure StorageClass
-highlight link Define  Include
-highlight link PreCondit  Define
-highlight link Label   Statement
-highlight link Repeat   Conditional
-highlight link Operator  Conditional
+highlight link Conceal ExtraWhitespace
 
 "highlight DefinedName
 "highlight EnumerationValue
@@ -87,14 +87,14 @@ highlight link Operator  Conditional
 "highlight StatusLine
 
 " Markdown
-highlight markdownH1 ctermfg=NONE guifg=NONE cterm=bold,underline
-highlight markdownH2 ctermfg=NONE guifg=NONE cterm=bold,underline
-highlight markdownH3 ctermfg=NONE guifg=NONE cterm=bold,underline
-highlight markdownH4 ctermfg=NONE guifg=NONE cterm=bold,underline
-highlight markdownH5 ctermfg=NONE guifg=NONE cterm=bold,underline
-highlight markdownH6 ctermfg=NONE guifg=NONE cterm=bold,underline
-highlight markdownH7 ctermfg=NONE guifg=NONE cterm=bold,underline
-highlight markdownLinkText ctermfg=17 cterm=underline guifg=#00005f
+highlight markdownH1 ctermfg=NONE guifg=NONE cterm=bold,underline gui=bold,underline
+highlight markdownH2 ctermfg=NONE guifg=NONE cterm=bold,underline gui=bold,underline
+highlight markdownH3 ctermfg=NONE guifg=NONE cterm=bold,underline gui=bold,underline
+highlight markdownH4 ctermfg=NONE guifg=NONE cterm=bold,underline gui=bold,underline
+highlight markdownH5 ctermfg=NONE guifg=NONE cterm=bold,underline gui=bold,underline
+highlight markdownH6 ctermfg=NONE guifg=NONE cterm=bold,underline gui=bold,underline
+highlight markdownH7 ctermfg=NONE guifg=NONE cterm=bold,underline gui=bold,underline
+highlight markdownLinkText ctermfg=17 cterm=underline guifg=#00005f gui=underline
 highlight markdownListMarker ctermfg=160 cterm=bold guifg=#d70000 gui=bold
 highlight link markdownHeadingRule markdownH1
 highlight link markdownItalic String
@@ -118,3 +118,16 @@ highlight link vimHiGroup Normal
 highlight link perlVarPlain Normal
 highlight link perlVarPlain2 Normal
 highlight link perlSubName Normal
+
+" Ruby
+highlight link rubyFunction Normal
+highlight link rubyDefine Keyword
+
+" JavaScript
+highlight link javaScriptBraces Normal
+
+" Css
+highlight link cssBraces Normal
+highlight link cssTagName Normal
+highlight link cssClassName String
+highlight link cssIdentifier String
