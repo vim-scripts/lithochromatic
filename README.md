@@ -1,7 +1,7 @@
 LithoChromatic Color Theme.
 ===============================================================================
 
-A clear, consistent and vibrant color theme for Vim and Emacs\*.
+A clear, consistent and vibrant color theme for Vim.
 
 Synopsis
 -------------------------------------------------------------------------------
@@ -22,13 +22,13 @@ If you have [Pathogen][1], or alike, just clone this repo to your
 `~/.vim/bundle/`:
 
     $ cd ~/.vim/bundle/
-    $ git clone https://github.com/goktugkayaalp/lithochromatic-vim.git
+    $ git clone https://github.com/gkya/lithochromatic-vim.git
 
 Otherwise, get the `colors/lithochromatic.vim` file from this repository's  
 tree, and put it into `~/.vim/colors/`:
 
     $ mkdir ~/.vim/colors/ # if you dont have it there already
-    $ curl https://raw.github.com/goktugkayaalp/\
+    $ curl https://raw.github.com/gkya/\
     lithochromatic-vim/master/colors/lithochromatic.vim >> \
     ~/.vim/colors/lithochromatic.vim
 
@@ -40,6 +40,5 @@ Then set your colorscheme to _lithochromatic_:
     endif
 
 __Important__: This color scheme has no support for non-256-color terminals.  
-__*__ Emacs port is not quite complete.
 
 [1]: https://github.com/tpope/vim-pathogen "Pathogen"
