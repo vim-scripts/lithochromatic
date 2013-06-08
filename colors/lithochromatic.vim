@@ -1,20 +1,11 @@
-"------------------------------------------------------------------------------
 " LithoChromatic - Color Theme for Vim
 " Copyright (C) 2013 Göktuğ Kayaalp <goktug.kayaalp@gmail.com>
 "
-" LithoChromatic is free software: you can redistribute it and/or modify
-" it under the terms of the GNU General Public License as published by
-" the Free Software Foundation, either version 3 of the License, or
-" (at your option) any later version.
+" LithoChromatic is licensed under the terms of MIT License; for license text
+" see the LICENSE file at the project root, or visit this URL:
 "
-" LithoChromatic is distributed in the hope that it will be useful,
-" but WITHOUT ANY WARRANTY; without even the implied
-" warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
-" PURPOSE.  See the GNU General Public License for more details.
-"
-" You should have received a copy of the GNU General Public License
-" along with LithoChromatic.  If not, see <http://www.gnu.org/licenses/>.
-"------------------------------------------------------------------------------
+"   http://opensource.org/licenses/MIT
+
 " Some boilerplate code here.
 set background="light"
 highlight clear
@@ -24,17 +15,17 @@ endif
 
 let g:colors_name = "lithochromatic"
 
-highlight Include ctermfg=22 guifg=#005f00 
+highlight Include ctermfg=22 guifg=#005f00
 highlight Type  ctermfg=127 guifg=#af00af
-highlight Statement ctermfg=127 guifg=#af00af 
-highlight StorageClass ctermfg=127 guifg=#af00af 
-highlight Conditional ctermfg=127 guifg=#af00af 
+highlight Statement ctermfg=127 guifg=#af00af
+highlight StorageClass ctermfg=127 guifg=#af00af
+highlight Conditional ctermfg=127 guifg=#af00af
 highlight Constant ctermfg=160 guifg=#d70000
 highlight String ctermfg=22 cterm=NONE guifg=#005f00 gui=NONE
-highlight Special ctermfg=17 guifg=#00005f 
+highlight Special ctermfg=17 guifg=#00005f
 highlight Comment ctermfg=18 guifg=#000087 gui=italic
-highlight Number ctermfg=61 guifg=#5f5faf 
-highlight Identifier ctermfg=127 guifg=#af00af 
+highlight Number ctermfg=61 guifg=#5f5faf cterm=bold
+highlight Identifier ctermfg=127 guifg=#af00af
 highlight Ignore ctermbg=255 ctermfg=16 guifg=#000000 guibg=#eeeeee
 highlight link  Boolean  Type
 highlight link Function Type
@@ -46,7 +37,7 @@ highlight link Label   Statement
 highlight link Repeat   Conditional
 highlight link Operator  Conditional
 
-highlight Normal  ctermbg=255 ctermfg=16 guifg=#000000 guibg=#eeeeee
+highlight Normal  ctermbg=254 ctermfg=16 guifg=#000000 guibg=#eeeeee
 highlight Title ctermbg=255 ctermfg=16 guifg=#000000 guibg=#eeeeee cterm=underline gui=underline
 highlight ErrorMsg  ctermbg=52 ctermfg=255 guifg=#eeeeee guibg=#5f0000
 highlight LineNr  ctermfg=238 ctermbg=144 guifg=#444444 guibg=#afaf87
@@ -59,11 +50,11 @@ highlight Search  ctermbg=NONE ctermfg=NONE guifg=NONE guibg=NONE cterm=underlin
 highlight Visual  ctermbg=191 ctermfg=0 guifg=#000000 guibg=#d7ff5f
 highlight ColorColumn  ctermbg=250 ctermfg=NONE guibg=#bcbcbc
 highlight MatchParen  cterm=underline, ctermbg=NONE ctermfg=16 guifg=#000000 guibg=NONE gui=underline,
-highlight NonText ctermbg=255 guibg=#eeeeee ctermfg=250 guifg=#bcbcbc
+highlight NonText ctermbg=NONE guibg=NONE ctermfg=203 guifg=#ff5f5f
 highlight SpecialKey ctermbg=250 ctermfg=NONE guibg=#bcbcbc guifg=NONE
-highlight Question ctermfg=22 guifg=#005f00 
-highlight MoreMsg ctermfg=22 guifg=#005f00 
-highlight Directory ctermfg=22 guifg=#005f00 
+highlight Question ctermfg=22 guifg=#005f00
+highlight MoreMsg ctermfg=22 guifg=#005f00
+highlight Directory ctermfg=22 guifg=#005f00
 highlight WarningMsg ctermbg=52 ctermfg=255 guifg=#eeeeee guibg=#5f0000
 highlight CursorLineNr ctermfg=238 ctermbg=144 guifg=#444444 guibg=#afaf87 cterm=underline gui=underline
 highlight Folded ctermbg=191 ctermfg=0 guifg=#000000 guibg=#d7ff5f
@@ -95,7 +86,7 @@ highlight markdownH5 ctermfg=NONE guifg=NONE cterm=underline gui=underline
 highlight markdownH6 ctermfg=NONE guifg=NONE cterm=underline gui=underline
 highlight markdownH7 ctermfg=NONE guifg=NONE cterm=underline gui=underline
 highlight markdownLinkText ctermfg=17 cterm=underline guifg=#00005f gui=underline
-highlight markdownListMarker ctermfg=160 guifg=#d70000 
+highlight markdownListMarker ctermfg=160 guifg=#d70000
 highlight link markdownHeadingRule markdownH1
 highlight link markdownItalic String
 highlight link markdown String
