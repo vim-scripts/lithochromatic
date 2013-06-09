@@ -10,7 +10,7 @@
 set background="light"
 highlight clear
 if exists("syntax_on")
-    syntax reset
+	syntax reset
 endif
 
 let g:colors_name = "lithochromatic"
@@ -51,7 +51,7 @@ highlight Visual  ctermbg=191 ctermfg=0 guifg=#000000 guibg=#d7ff5f
 highlight ColorColumn  ctermbg=250 ctermfg=NONE guibg=#bcbcbc
 highlight MatchParen  cterm=underline, ctermbg=NONE ctermfg=16 guifg=#000000 guibg=NONE gui=underline,
 highlight NonText ctermbg=NONE guibg=NONE ctermfg=203 guifg=#ff5f5f
-highlight SpecialKey ctermbg=250 ctermfg=NONE guibg=#bcbcbc guifg=NONE
+highlight SpecialKey ctermbg=NONE ctermfg=203 guibg=NONE guifg=#ff5f5f
 highlight Question ctermfg=22 guifg=#005f00
 highlight MoreMsg ctermfg=22 guifg=#005f00
 highlight Directory ctermfg=22 guifg=#005f00
