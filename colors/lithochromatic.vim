@@ -78,14 +78,14 @@ highlight link Conceal ExtraWhitespace
 "highlight StatusLine
 
 " Markdown
-highlight markdownH1 ctermfg=NONE guifg=NONE cterm=underline gui=underline
-highlight markdownH2 ctermfg=NONE guifg=NONE cterm=underline gui=underline
-highlight markdownH3 ctermfg=NONE guifg=NONE cterm=underline gui=underline
-highlight markdownH4 ctermfg=NONE guifg=NONE cterm=underline gui=underline
-highlight markdownH5 ctermfg=NONE guifg=NONE cterm=underline gui=underline
-highlight markdownH6 ctermfg=NONE guifg=NONE cterm=underline gui=underline
-highlight markdownH7 ctermfg=NONE guifg=NONE cterm=underline gui=underline
-highlight markdownLinkText ctermfg=17 cterm=underline guifg=#00005f gui=underline
+highlight markdownH1 ctermfg=NONE guifg=NONE cterm=bold gui=bold
+highlight markdownH2 ctermfg=NONE guifg=NONE cterm=bold gui=bold
+highlight markdownH3 ctermfg=NONE guifg=NONE cterm=bold gui=bold
+highlight markdownH4 ctermfg=NONE guifg=NONE cterm=bold gui=bold
+highlight markdownH5 ctermfg=NONE guifg=NONE cterm=bold gui=bold
+highlight markdownH6 ctermfg=NONE guifg=NONE cterm=bold gui=bold
+highlight markdownH7 ctermfg=NONE guifg=NONE cterm=bold gui=bold
+highlight markdownLinkText ctermfg=17 cterm=bold guifg=#00005f gui=bold
 highlight markdownListMarker ctermfg=160 guifg=#d70000
 highlight link markdownHeadingRule markdownH1
 highlight link markdownItalic String

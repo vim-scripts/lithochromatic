@@ -3,7 +3,7 @@ LithoChromatic Color Theme.
 
 A clear, consistent and vibrant color theme for Vim.
 
-![Screenshot](http://gkayaalp.com/img/lithochromatic-1.0.0-gnome-terminal.png)
+![Screenshot](http://gkayaalp.com/img/lithochromatic-1.1-gnome-terminal.png)
 
 Synopsis
 -------------------------------------------------------------------------------
