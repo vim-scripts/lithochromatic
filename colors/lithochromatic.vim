@@ -122,3 +122,8 @@ highlight link cssBraces Normal
 highlight link cssTagName Normal
 highlight link cssClassName String
 highlight link cssIdentifier String
+
+" Spelling
+highlight SpellBad cterm=underline ctermfg=red ctermbg=NONE gui=underline guifg=red guibg=NONE
+highlight SpellCap cterm=underline ctermfg=blue ctermbg=NONE gui=underline guifg=blue guibg=NONE
+highlight SpellLocal cterm=underline ctermfg=green ctermbg=NONE gui=underline guifg=green guibg=NONE
